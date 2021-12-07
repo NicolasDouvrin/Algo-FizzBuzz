@@ -1,0 +1,17 @@
+<div>
+
+  <h1>Fizzbuzz Algo</h1>
+
+  <label for="N">Entrer un nombre :</label>
+
+  <input type="number" (change)="fizzBuzz($event)"/>
+
+  <h3 *ngIf="resultList.length !=0">Résultats :</h3>
+  <ul *ngFor="let result of resultList">
+    <li>{{result}}</li>
+  </ul>
+
+  <a href="https://github.com/inextensodigital/developers/blob/master/Algo/fizzbuzz.md"> Lien Exercice Github</a>
+
+
+</div>
